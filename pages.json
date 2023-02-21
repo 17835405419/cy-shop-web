@@ -1,0 +1,87 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "长院二手淘",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/fabu/fabu/fabu",
+			"style": {
+				"navigationBarTitleText": "发布商品"
+			}
+		},
+		{
+			"path": "pages/fabu/qiugou/qiuguo",
+			"style": {
+				"navigationBarTitleText": "意向求购"
+			}
+		},
+		{
+			"path": "pages/goods/good-info/good-info",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"enablePullDownRefresh": true
+			}
+		}
+		
+	    ,{
+            "path" : "pages/my/shopManger/shopManger",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods/chat/chat",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "聊天",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "校园二手淘",
+		"navigationBarBackgroundColor": "#ff694f",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#909399",
+	    "selectedColor": "#303133",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/home/home",
+	        "iconPath": "static/icon/home.png",
+	        "selectedIconPath": "static/icon/home_.png",
+	        "text": "首页"
+	    },{
+			"pagePath":"pages/fabu/fabu/fabu",
+			"iconPath":"static/icon/fabu.png",
+			"selectedIconPath":"static/icon/fabu_.png",
+			"text":"发布"
+		},{
+			"pagePath":"pages/my/my",
+			"iconPath":"static/icon/my.png",
+			"selectedIconPath":"static/icon/my_.png",
+			"text":"我"
+		}
+		]
+	}
+}

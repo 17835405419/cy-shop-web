@@ -1,0 +1,43 @@
+
+.data-v-3c9106b2 .u-input__input.data-v-460c1d26 {
+  padding-right: 25rpx;
+}
+.priceLabel.data-v-3c9106b2 {
+  position: absolute;
+  right: 0;
+}
+.fabu-content.data-v-3c9106b2 {
+  background-color: #eee;
+}
+.fabu-content .firstBox.data-v-3c9106b2 {
+  background-color: #FFFFFF;
+}
+.fabu-content .twoBox.data-v-3c9106b2 {
+  margin-top: 40rpx;
+  background-color: #FFFFFF;
+}
+.fabu-content .three-box.data-v-3c9106b2 {
+  margin-top: 40rpx;
+  background-color: #FFFFFF;
+}
+.fabu-content .four-box.data-v-3c9106b2 {
+  margin-top: 40rpx;
+  background-color: #FFFFFF;
+}
+.fabu-content .four-box .text.data-v-3c9106b2 {
+  padding: 30rpx 0 0 10rpx;
+}
+.fabu-content .five-box.data-v-3c9106b2 {
+  margin-top: 40rpx;
+  background-color: #FFFFFF;
+}
+.fabu-content .five-box .text.data-v-3c9106b2 {
+  padding: 30rpx 0 0 10rpx;
+}
+.fabu-content .btn-box.data-v-3c9106b2 {
+  padding: 20rpx;
+}
+.fabu-content .btn-box .first-btn.data-v-3c9106b2 {
+  margin-bottom: 10rpx;
+}
+

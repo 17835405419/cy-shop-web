@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/my/my",
+    "pages/fabu/fabu/fabu",
+    "pages/fabu/qiugou/qiuguo",
+    "pages/goods/good-info/good-info",
+    "pages/my/shopManger/shopManger",
+    "pages/goods/chat/chat"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "校园二手淘",
+    "navigationBarBackgroundColor": "#ff694f",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#303133",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home_.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/fabu/fabu/fabu",
+        "iconPath": "static/icon/fabu.png",
+        "selectedIconPath": "static/icon/fabu_.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/icon/my.png",
+        "selectedIconPath": "static/icon/my_.png",
+        "text": "我"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

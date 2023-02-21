@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.good-info .nameAndTag.data-v-f1bfc36a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.good-info .nameAndTag .name.data-v-f1bfc36a {
+  font-size: 18px;
+  padding-left: 20rpx;
+  color: #737373;
+  margin: 30rpx 0;
+  font-weight: 500;
+}
+.good-info .nameAndTag .status.data-v-f1bfc36a {
+  margin-right: 20rpx;
+}
+.good-info .pricebox.data-v-f1bfc36a {
+  font-size: 17px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  padding: 10rpx 0;
+}
+.good-info .pricebox .price.data-v-f1bfc36a {
+  color: red;
+  margin-left: 20rpx;
+}
+.good-info .pricebox .sales.data-v-f1bfc36a {
+  color: #797979;
+  margin-right: 20rpx;
+}
+.color.data-v-f1bfc36a {
+  color: red;
+}
+.centerContent.data-v-f1bfc36a {
+  height: 36vh;
+  overflow-y: scroll;
+}
+.centerContent .u-content.data-v-f1bfc36a {
+  padding: 20rpx;
+  font-size: 14px;
+}
+.centerContent .comment.data-v-f1bfc36a {
+  position: fixed;
+  top: 55 vh;
+  bottom: 8vh;
+  overflow-y: scroll;
+}
+.popComment.data-v-f1bfc36a {
+  padding: 20rpx 0 0 30rpx;
+}
+.navigation.data-v-f1bfc36a {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  border: solid 2rpx #f2f2f2;
+  background-color: #ffffff;
+  padding: 16rpx 0;
+  width: 100%;
+}
+.navigation .left.data-v-f1bfc36a {
+  display: flex;
+  font-size: 20rpx;
+}
+.navigation .left .item.data-v-f1bfc36a {
+  margin: 0 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navigation .right.data-v-f1bfc36a {
+  display: flex;
+  font-size: 28rpx;
+  align-items: center;
+  position: absolute;
+  right: 0;
+}
+.navigation .right .btn.data-v-f1bfc36a {
+  line-height: 66rpx;
+  padding: 0 30rpx;
+  border-radius: 36rpx;
+  color: #ffffff;
+  margin: 0 20rpx;
+}
+.navigation .right .buy1.data-v-f1bfc36a {
+  background-color: #82858a;
+}
+.navigation .right .buy.data-v-f1bfc36a {
+  background-color: #ff7900;
+}
+

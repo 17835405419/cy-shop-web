@@ -1,0 +1,26 @@
+.goods_item {
+  padding: 40rpx;
+  margin-top: 30rpx;
+  box-shadow: 0 12rpx 20rpx 0 rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
+}
+.goods_item .title {
+  margin: 20rpx 0;
+  font-weight: 500;
+  font-size: 32rpx;
+  width: 100%;
+}
+.goods_item .goods_sbox {
+  display: flex;
+  justify-content: space-between;
+}
+.goods_item .goods_sbox .price {
+  color: red;
+  width: 40%;
+}
+.goods_item .goods_sbox .num {
+  padding-left: 20px;
+  color: #888;
+  width: 40%;
+}
+

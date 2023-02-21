@@ -1,0 +1,14 @@
+.content.data-v-92bb8f34 {
+  background-color: #f8f8f8;
+}
+.content .search.data-v-92bb8f34 {
+  height: 90rpx;
+  padding-top: 20rpx;
+}
+.content .swiper.data-v-92bb8f34 {
+  margin-top: 20rpx;
+}
+.content .notice.data-v-92bb8f34 {
+  margin-top: 15rpx;
+}
+

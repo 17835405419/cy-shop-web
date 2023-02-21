@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-tag": "/uview-ui/components/u-tag/u-tag",
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-section": "/uview-ui/components/u-section/u-section",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "goods-comment": "/components/goods-comment/goods-comment"
+  }
+}
